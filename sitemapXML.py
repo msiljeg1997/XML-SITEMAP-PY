@@ -23,7 +23,7 @@ if __name__ == '__main__':
                     DateLast = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
                     file.write('<url>\n')
                     file.write('<loc>' + url_loc + '</loc>\n')
-                    file.write('<last_mod>' + DateLast)
+                    file.write('<last_mod>' + DateLast + '</last_mod>\n')
                     file.write('</url>\n')
         file.write('</urlset>')
 
