@@ -26,3 +26,5 @@ if __name__ == '__main__':
                     file.write('<last_mod>' + DateLast)
                     file.write('</url>\n')
         file.write('</urlset>')
+
+        # COMMITNERADI
