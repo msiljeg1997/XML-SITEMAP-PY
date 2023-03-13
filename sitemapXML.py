@@ -12,9 +12,9 @@ if __name__ == '__main__':
             res = requests.get(el)
             if res.status_code == 200:
                 if el.endswith('beauty/public/api/items'):
-                    el_txt = 'https://www.wih.hr/beauty/#/product/'
+                    el_txt = 'https://www.wih.hr/beauty/#/proizvod/'
                 elif el.endswith('medicine/public/api/items'):
-                    el_txt = 'https://www.wih.hr/medicine/#/product/'
+                    el_txt = 'https://www.wih.hr/medicine/#/proizvod/'
                 else:
                     el_txt = ''
                 JsonResponse = res.json()
